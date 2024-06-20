@@ -10,15 +10,8 @@
 }
 
 body{
-    width: 100%;
-    height: calc(100vh - 60px);
     background-color: #1a253a;
-    margin-top: 60px;
-    background-image: url(../img/background.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+  }
 
 body:after {
     position: absolute;
@@ -26,11 +19,12 @@ body:after {
     height: 0;
     overflow: hidden;
     z-index: -1;
+    
 }
 
 .wrapper-main{
-    margin: 0 auto;
     width: 1500px;
+    margin: 0 auto;
 }
 
 h1{
@@ -181,4 +175,16 @@ a {
     padding-right: 60px;
 }
 
+/* Footer */
+
+.footer-main{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
    
