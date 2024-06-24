@@ -14,7 +14,7 @@ main {
     column-gap: 80px;
 }
 
-main .main-intro h1 {
+.main-intro h1 {
     font-size: 100px;
     line-height: 100px;
     padding: 0 40px 20px 0;
