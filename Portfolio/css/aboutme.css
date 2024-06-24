@@ -23,18 +23,18 @@
         border: solid 5px var(--site-color-01);
     }
 .about-bio h1 {
-        font-size: 54px;
-        line-height: 50px;
+        font-size: 5.4rem;
+        line-height: 5rem;
     }
 
 .about-bio p {
-    font-size: 20px;
+    font-size: 2.0rem;
     padding: 40px 0 20px;
     } 
 
 .about-bio a {
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: block;
     height: 36px;
     line-height: 36px;
