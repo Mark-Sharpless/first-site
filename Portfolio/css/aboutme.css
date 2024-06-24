@@ -1,0 +1,54 @@
+.main-about {
+    width: 100%;
+    padding: 60px 60px 60px;
+    background-color: #1a253a;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 300px;
+    }
+
+.main-about-flex {
+    display: flex;
+    padding: 20px 0 200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.main-about-img img {
+        width: 550px;
+        height: 1000px;
+        border: solid 5px var(--site-color-01);
+    }
+.about-bio h1 {
+        font-size: 54px;
+        line-height: 50px;
+    }
+
+.about-bio p {
+    font-size: 20px;
+    padding: 40px 0 20px;
+    } 
+
+.about-bio a {
+    margin-top: 30px;
+    font-size: 18px;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    background-color: var(--site-color-01);
+    padding: 0 20px;
+    width: fit-content;
+}
+
+.index-about-text a:hover {
+    background-color: var(--site-color-01);
+    
+}
+
+
+
+
+
