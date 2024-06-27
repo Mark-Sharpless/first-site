@@ -266,3 +266,27 @@ a {
     clear: both;
     float: right;
 }
+
+/* Mobile version */
+
+@media only screen and (max-width: 600px) {
+    .wrapper-main {
+        width: 80%;
+    }
+
+           
+    .header-main-logo {
+        padding-left: 10px; 
+    }
+
+    .header-main-nav {
+        display: none;
+    }
+
+    .header-main-social {
+        padding-right: 20px;
+        }
+
+}
+
+    
